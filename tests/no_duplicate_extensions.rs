@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use std::collections::HashSet;
 
 use bat::assets::HighlightingAssets;

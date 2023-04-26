@@ -21,6 +21,8 @@
 
 #![deny(unsafe_code)]
 
+extern crate eyra;
+
 mod macros;
 
 pub mod assets;

@@ -1,5 +1,7 @@
 #![deny(unsafe_code)]
 
+extern crate eyra;
+
 mod app;
 mod assets;
 mod clap_app;

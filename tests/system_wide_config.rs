@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use predicates::{prelude::predicate, str::PredicateStrExt};
 
 mod utils;

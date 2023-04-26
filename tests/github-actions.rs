@@ -1,3 +1,5 @@
+extern crate eyra;
+
 #[test]
 fn all_jobs_not_missing_any_jobs() {
     let yaml: serde_yaml::Value =

@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use predicates::boolean::PredicateBooleanExt;
 use predicates::{prelude::predicate, str::PredicateStrExt};
 use serial_test::serial;

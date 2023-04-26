@@ -1,3 +1,5 @@
+extern crate eyra;
+
 use bat::PrettyPrinter;
 
 #[test]

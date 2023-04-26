@@ -1,3 +1,5 @@
+extern crate eyra;
+
 #[cfg(feature = "git")]
 mod tester;
 
