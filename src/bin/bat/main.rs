@@ -1,5 +1,7 @@
 #![deny(unsafe_code)]
 
+mustang::can_run_this!();
+
 mod app;
 mod assets;
 mod clap_app;

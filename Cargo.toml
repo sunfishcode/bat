@@ -41,6 +41,7 @@ regex-onig = ["syntect/regex-onig"] # Use the "oniguruma" regex engine
 regex-fancy = ["syntect/regex-fancy"] # Use the rust-only "fancy-regex" engine
 
 [dependencies]
+mustang = "0.14.1"
 nu-ansi-term = "0.49.0"
 ansi_colours = "^1.2"
 bincode = "1.0"
@@ -104,6 +105,6 @@ optional = true
 features = ["wrap_help", "cargo"]
 
 [profile.release]
-lto = true
+#lto = true # Mustang doesn't support LTO yet.
 strip = true
 codegen-units = 1

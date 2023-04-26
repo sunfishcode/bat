@@ -21,6 +21,8 @@
 
 #![deny(unsafe_code)]
 
+mustang::can_run_this!();
+
 mod macros;
 
 pub mod assets;

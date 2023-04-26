@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use bat::assets::HighlightingAssets;
 
 /// This test ensures that we are not accidentally removing themes due to submodule updates.

@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use predicates::{prelude::predicate, str::PredicateStrExt};
 
 mod utils;

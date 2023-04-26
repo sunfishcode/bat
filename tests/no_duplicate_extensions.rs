@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use std::collections::HashSet;
 
 use bat::assets::HighlightingAssets;

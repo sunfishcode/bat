@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use bat::PrettyPrinter;
 
 #[test]

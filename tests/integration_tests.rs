@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 use predicates::boolean::PredicateBooleanExt;
 use predicates::{prelude::predicate, str::PredicateStrExt};
 use serial_test::serial;

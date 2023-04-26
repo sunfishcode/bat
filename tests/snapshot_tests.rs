@@ -1,3 +1,5 @@
+mustang::can_run_this!();
+
 #[cfg(feature = "git")]
 mod tester;
 
